@@ -2,35 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beautiful Login Page</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/registration.css"> <!-- Link to your CSS file for styling -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      background-image: url(../assets/images/earth2.jpeg);
+      background-size: 100%;
+    }
+
+    #container {
+      max-width: 400px;
+      margin: 100px auto 0 auto;
+      /* Adjust the top margin */
+      padding: 10px;
+      /* Reduce the padding */
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    label,
+    input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 150px;
+      padding: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 57px;
+      margin-bottom: 25px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .form-container {
+      padding-right: 20px;
+    }
+
+    .login-link {
+      margin-top: 10px;
+      /* Add margin to separate it from the button */
+      text-align: center;
+
+      .log-in-thing {
+        color: #007BFF;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
-    <div class="login-container">
-        <div class="login-box">
-            <h1>Welcome Back</h1>
-            <p>Login to your account</p>
-            <form action="login.php" method="POST">
-                <div class="input-container">
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Your username" required>
-                </div>
-                <div class="input-container">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Your password" required>
-                </div>
-                <button type="submit">Login</button>
-            </form>
-            <div class="bottom-links">
-                <p class="forgot-password"><a href="#">Forgot password?</a></p>
-                <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
-            </div>
-        </div>
-    </div>
+  <div id="container">
+    <h2>Registration</h2>
+    <form class="form-container">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" required>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" required>
+
+      <label for="phone">Phone Number (optional):</label>
+      <input type="text" id="phone" name="phone">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Register</button>
+
+      <!-- Add the login link below the button -->
+      <p class="login-link">Already have an account? <a href="#" class="log-in-thing">Log In</a>!</p>
+    </form>
+  </div>
 </body>
 
 </html>
