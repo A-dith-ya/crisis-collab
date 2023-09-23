@@ -14,6 +14,7 @@ fetch('../data/market/market.json')
                 <p>${resource.description}</p>
                 <img src=${resource["image-url"]} alt="Food Image">
                 <p>Contact: ${resource["contact-info"]}</p>
+                <button class="message-button">Message User</button>
             `;
 
             resourceList.appendChild(resourceItem);
