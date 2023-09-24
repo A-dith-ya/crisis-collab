@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/earth2.jpeg);
+    background-size: 100%;
+}
+
+#container {
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+    /* Adjust the top margin */
+    padding: 10px;
+    /* Reduce the padding */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+label,
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 57px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    padding-right: 20px;
+}
+
+.login-link {
+    margin-top: 10px;
+    /* Add margin to separate it from the button */
+    text-align: center;
+
+    .log-in-thing {
+        color: #007BFF;
+    }
+
+}
