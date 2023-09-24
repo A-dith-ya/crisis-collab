@@ -5,7 +5,8 @@ body {
     background-color: #f0f0f0;
 }
 
-header {
+h1 {
+    margin-top: 10%;
     color: #0072BB;
     text-align: center;
     padding: 1rem 0;

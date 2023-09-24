@@ -4,16 +4,14 @@ body {
     padding: 20px;
 }
 
-header {
+h1 {
     background-color: #0072BB;
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-header h1 {
     font-size: 24px;
 }
+
 
 #event-calendar {
     font-family: Arial, sans-serif;

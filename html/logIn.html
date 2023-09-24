@@ -7,9 +7,11 @@
     <title>Beautiful Login Page</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/logIn.css"> <!-- Link to your CSS file for styling -->
-</head>
+
 
 <body>
+    <header id="non-auth-header-placeholder"> </header>
+
     <div class="login-container">
         <div class="login-box">
             <h1>Welcome Back</h1>
@@ -23,7 +25,8 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Your password" required>
                 </div>
-                <button id="submit" href="index.html" type="submit">Login</button>
+                <button id="redirect-button" href="/html/community-form.html" type="submit"><a
+                        href="/html/community-form.html">Login</a></button>
             </form>
             <div class="bottom-links">
                 <p class="forgot-password"><a href="#">Forgot password?</a></p>
@@ -31,22 +34,22 @@
             </div>
         </div>
     </div>
+    <script src="/js/include-header.js"></script>
 </body>
 <script>
-    const button = document.getElementById("submit")
-    const wordInput = document.getElementById("password")
-    const resultMessage = document.getElementById('username');
-    const word = wordInput.value.trim();
-    const result = resultMessage.value.trim();
-    function handleClick(event) {
-        event.preventDefault();
-        if (word === "") {
-        } else {
-            window.location.href = "./calendar.html"
-        }
+    button.addEventListener("click", handleClick)
+    // Function to handle the button click and redirect
+    function redirectToAnotherPage() {
+        // Specify the URL of the page you want to redirect to
+        var redirectToURL = "/html/community-form.html"; // Replace with your desired URL
+
+        // Redirect the user to the specified URL
+        window.location.href = redirectToURL;
     }
 
-    button.addEventListener("click", handleClick)
+    // Add a click event listener to the button
+    var redirectButton = document.getElementById('redirect-button');
+    redirectButton.addEventListener('click', redirectToAnotherPage);
 </script>
 
 </html>
