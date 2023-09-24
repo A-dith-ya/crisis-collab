@@ -14,8 +14,7 @@
 <body>
   <div class="header">
 
-    <div><a href="/html/index.html"><img href="community-form.html" src="../assets/images/crisisLogo.jpg" alt="Logo"
-          class="logo"></a></div>
+    <img src="../assets/images/crisisLogo.jpg" alt="Logo" class="logo">
 
     <ul class="nav-links">
       <li><a href="community-form.html">Community Forms</a></li>
@@ -23,7 +22,7 @@
       <li><a href="market.html">Marketplace</a></li>
       <li><a href="emergency-info.html">Resources</a></li>
       <li><a href="calendar.html">Event Calendar</a></li>
-      <li><a href="/html/maps.html">Maps</a></li>
+      <li><a href="#">Maps</a></li>
 
       <div class="notification-container" id="notificationBell">
         <div class="notification-icon">
@@ -51,7 +50,19 @@
         </div>
       </div>
     </ul>
+
   </div>
+
+  <script>
+    const notificationBell = document.getElementById("notificationBell");
+    const popupContainer = document.getElementById("popupContainer");
+
+    notificationBell.addEventListener("click", togglePopup);
+
+    function togglePopup() {
+      popupContainer.classList.toggle("active");
+    }
+  </script>
 </body>
 
 </html>
