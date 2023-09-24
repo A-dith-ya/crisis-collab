@@ -4,7 +4,7 @@ body {
 
 /* Header styles */
 .header {
-    background: #333;
+    background: #0072BB;
     color: #fff;
     display: flex;
     align-items: center;
@@ -115,8 +115,8 @@ body {
     z-index: 1;
     border: solid;
     border-color: rgb(104, 103, 103);
-    background-color: rgb(208, 205, 205);
-    color: rgb(96, 95, 95);
+    background-color: #F25757;
+    color: #fff;
     width: 400px;
     margin-top: 30px;
 }

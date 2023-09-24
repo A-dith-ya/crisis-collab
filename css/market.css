@@ -5,8 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    color: #0072BB;
     text-align: center;
     padding: 20px 0;
 }
@@ -29,6 +28,7 @@ main {
 }
 
 h2 {
+    color: #6987C9;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -50,7 +50,7 @@ input[type="file"] {
 }
 
 button[type="submit"] {
-    background-color: #333;
+    background-color: #0072BB;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -59,7 +59,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #555;
+    background-color: #6987C9;
 }
 
 #resource-list {
@@ -84,7 +84,7 @@ button[type="submit"]:hover {
 }
 
 .message-button {
-    background-color: #333;
+    background-color: #0072BB;
     color: #fff;
     padding: 5px 10px;
     border: none;
@@ -94,7 +94,7 @@ button[type="submit"]:hover {
 }
 
 .message-button:hover {
-    background-color: #555;
+    background-color: #6987C9;
 }
 
 footer {

@@ -13,7 +13,6 @@ fetch('../data/market/market.json')
                 <h3>${resource["resource-type"]}</h3>
                 <p>${resource.description}</p>
                 <img src=${resource["image-url"]} alt="Food Image">
-                <p>Contact: ${resource["contact-info"]}</p>
                 <button class="message-button">Message User</button>
             `;
 

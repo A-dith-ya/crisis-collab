@@ -13,6 +13,8 @@ calendarCells.forEach((cell) => {
 
         // Fill disaster nformation related fields
         switch (dateText) {
+            case '':
+                break;
             case '8':
                 dateInfoElement.textContent = ``;
                 disasterInfoElement.innerHTML = '<b>Disaster Type:</b> Hurricane';
