@@ -10,9 +10,7 @@ body {
 #container {
     max-width: 400px;
     margin: 100px auto 0 auto;
-    /* Adjust the top margin */
     padding: 10px;
-    /* Reduce the padding */
     background-color: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -67,7 +65,6 @@ button:hover {
 
 .login-link {
     margin-top: 10px;
-    /* Add margin to separate it from the button */
     text-align: center;
 
     .log-in-thing {

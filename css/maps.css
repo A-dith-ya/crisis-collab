@@ -102,7 +102,6 @@ img {
     float: center;
 }
 
-/* Sidebar styles */
 #sidebar {
     width: 30%;
     height: 400px;
@@ -115,15 +114,12 @@ img {
     margin-top: 0;
 }
 
-/* Style the draggable items */
 .draggable-item {
     margin-bottom: 10px;
     cursor: pointer;
     user-select: element;
-    /* Enable HTML5 drag and drop */
 }
 
-/* Style the dropped items on the map */
 .dropped-item {
     position: absolute;
 }

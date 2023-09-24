@@ -16,9 +16,7 @@
 </head>
 
 <body>
-    <header id="header-placeholder">
-        <!-- This empty header will be replaced by the JavaScript include -->
-    </header>
+    <header id="header-placeholder"></header>
     <h1>Maps for Crisis Warnings & Resources</h1>
     <div>
         <section id="mapa-stoppa">
@@ -34,29 +32,15 @@
             <div>
                 <h2>Draggable Items:</h2>
                 <br>
-                <!-- Draggable circles -->
                 <img src="/assets/images/circle.png" height="200" width="200">
                 <img src="/assets/images/fireicon.jpg" height="200" width="200">
                 <img src="/assets/images/tornadoIcon.png">
             </div>
             <br>
             <div id="map" style="height: 400px;"></div>
-
-
         </section>
     </div>
     </div>
-    <script>
-        // Initialize the map
-        var myMap = L.map('map').setView([51.505, -0.09], 13);
-
-        // Add a tile layer
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(myMap);
-
-        //delte below if not working
-    </script>
     <script src="/js/include-header.js"></script>
     <script src="/js/maps.js"></script>
 </body>

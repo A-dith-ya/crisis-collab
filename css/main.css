@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     background-color: #0072BB;
     font-family: Arial, sans-serif;
@@ -8,11 +7,8 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url("/assets/images/WilfireEffect.jpg");
-    /* Replace "your-image.jpg" with your image file path */
     background-size: cover;
-    /* Adjusts the image size to cover the entire viewport */
     background-repeat: no-repeat;
-    /* Prevents the image from repeating */
     background-attachment: fixed;
 }
 
@@ -37,13 +33,8 @@ body {
 }
 
 body {
-    /* The image used */
     background-image: url("/assets/images/WilfireEffect.jpg");
-
-    /* Set a specific height */
     min-height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

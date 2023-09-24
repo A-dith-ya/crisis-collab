@@ -2,26 +2,22 @@ body {
     font-family: Roboto;
 }
 
-/* Header styles */
 .header {
     background: #0072BB;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Distribute space evenly */
     padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 2;
-    /* Ensure the header is above other content */
 }
 
 .logo {
     width: 90px;
-    /* Adjust the logo width as needed */
     height: auto;
 }
 
@@ -45,21 +41,17 @@ body {
     text-decoration: underline;
 }
 
-/* Container for the notification bell and pop-up */
 .notification-container {
     display: flex;
     align-items: center;
     cursor: pointer;
     z-index: 3;
-    /* Ensure the bell icon is above the header */
 }
 
 .notification-icon {
     position: relative;
     width: 24px;
-    /* Adjust the size as needed */
     height: 24px;
-    /* Adjust the size as needed */
     margin-right: 10px;
 }
 
@@ -102,7 +94,6 @@ body {
     text-decoration: none;
 }
 
-/* CSS for the pop-up/modal */
 .popup-container {
     font-family: arial;
     display: none;
