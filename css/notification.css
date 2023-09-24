@@ -117,6 +117,8 @@ body {
     border-color: rgb(104, 103, 103);
     background-color: rgb(208, 205, 205);
     color: rgb(96, 95, 95);
+    width: 400px;
+    margin-top: 30px;
 }
 
 .popup-container.active {
@@ -125,4 +127,18 @@ body {
 
 .icon-image {
     filter: invert();
+}
+
+.tornado-icon {
+    width: 30px;
+    margin: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.noti-one {
+    display: inline-block;
+    vertical-align: middle;
 }
