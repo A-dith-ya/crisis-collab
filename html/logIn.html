@@ -23,14 +23,30 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" placeholder="Your password" required>
                 </div>
-                <button type="submit">Login</button>
+                <button id="submit" href="index.html" type="submit">Login</button>
             </form>
             <div class="bottom-links">
                 <p class="forgot-password"><a href="#">Forgot password?</a></p>
-                <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+                <p class="signup-link">Don't have an account? <a href="registration.html">Sign up</a></p>
             </div>
         </div>
     </div>
 </body>
+<script>
+    const button = document.getElementById("submit")
+    const wordInput = document.getElementById("password")
+    const resultMessage = document.getElementById('username');
+    const word = wordInput.value.trim();
+    const result = resultMessage.value.trim();
+    function handleClick(event) {
+        event.preventDefault();
+        if (word === "") {
+        } else {
+            window.location.href = "./calendar.html"
+        }
+    }
+
+    button.addEventListener("click", handleClick)
+</script>
 
 </html>

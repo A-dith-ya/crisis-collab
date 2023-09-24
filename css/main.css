@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    background-color: #0072BB;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/assets/images/WilfireEffect.jpg");
+    /* Replace "your-image.jpg" with your image file path */
+    background-size: cover;
+    /* Adjusts the image size to cover the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-attachment: fixed;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+body {
+    /* The image used */
+    background-image: url("/assets/images/WilfireEffect.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
